@@ -238,7 +238,7 @@ animation: 1s slideinr ease-out 0.5s both;
 
 @keyframes slideinr {
   from {
-    margin-left: -100%;
+    margin-left: -120%;
     width: 300%;
   }
 
