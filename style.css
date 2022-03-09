@@ -18,7 +18,7 @@ body {
 
 .bodybackground1 {
     position: absolute;
-    top: 55%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     color: #000000;
@@ -29,7 +29,7 @@ body {
 
 .bodybackground2 {
     position: absolute;
-    top: 55%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     color: #000000;
