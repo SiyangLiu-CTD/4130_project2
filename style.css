@@ -2,37 +2,51 @@
 @import url(//db.onlinewebfonts.com/c/5c452fb7a0f5751f4e94e9d84eb01154?family=Segoe+Script);
 
 
-
-.body{
-
-}
-
-
-.bodybackground {
+.bodybackground1 {
     position: absolute;
     top: 57%;
     left: 50%;
     transform: translate(-50%,-50%);
 
-
-    z-index: -1;
-    color: #black;
+    color: #000000;
     opacity: 0.05;
 }
 
-.container{
+.bodybackground2 {
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    color: #000000;
+    opacity: 0.1;
+}
+
+.container1{
   position: absolute;
   top: 50%;
   left: 48%;
   transform: translate(-50%,-50%);
 
   width: 70%;
-  z-index: 0;
+
 
   line-height:1.5vw;
   text-align: right;
   hanging-punctuation: force-end;
+}
 
+.container2{
+  position: absolute;
+  top: 50%;
+  left: 48%;
+  transform: translate(-50%,-50%);
+
+  width: 70%;
+
+
+  line-height:1.5vw;
+  text-align: left;
 }
 
 .blu_ln{
@@ -43,10 +57,27 @@
   color: #FCDB00;
 }
 
-.quo{
+.whi_ln{
+  color: #fff;
+}
+
+.red_ln{
+  color: #C1272D;
+}
+
+.quo1{
+  color: #0071BC;
   position: absolute;
   top: 15%;
   left: 40%;
+  transform: translate(-50%,-50%);
+}
+
+.quo2{
+  color:#fff;
+  position: absolute;
+  top: 80%;
+  left: 75%;
   transform: translate(-50%,-50%);
 }
 
@@ -75,13 +106,64 @@ h3{
 h4{
   font-family: 'Sarabun', sans-serif;
   font-size: 12vw;
-  color: #0071BC;
 }
 
-.section-1 {
 
+
+* {
+	 -webkit-font-smoothing: antialiased;
 }
 
-.section-2 {
-  display:none;
+html {
+  height: 100%;
+  margin: 0;
+}
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+ input[type=checkbox] {
+	 -webkit-appearance: none;
+	 height: 100%;
+	 width: 100%;
+	 margin: 0;
+	 padding: 0;
+	 outline: none;
+	 border: none;
+	 display: block;
+	 background-color: #fff;
+	 transition: background-color 1s;
+}
+ input[type=checkbox]:checked {
+	 background-color: #333333;
+	 transition: background-color 1s;
+}
+ input[type=checkbox]:checked ~ .section-2 {
+	 display: block;
+}
+ input[type=checkbox]:checked ~ .section-1 {
+	 display: none;
+}
+ .section-1 {
+	 display: block;
+	 color: #333333;
+	 z-index: 10;
+	 position: fixed;
+	 height: 100%;
+	 width: 100%;
+	 top: 0;
+	 pointer-events: none;
+
+}
+ .section-2 {
+	 display: none;
+	 color: #fff;
+	 z-index: 10;
+	 position: fixed;
+	 height: 100%;
+	 width: 100%;
+	 top: 0;
+	 pointer-events: none;
+
 }
