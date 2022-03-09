@@ -105,14 +105,15 @@ h1{
 h2{
   font-family: "Segoe Script",'Finger Paint';
   font-size:70vw;
-  animation: infinity 20s infinite normal;
+  animation: infinity 20s infinite ease-in;
   animation-direction: alternate;
 }
 
 h3{
   font-family: 'Pacifico', cursive;
   font-size: 2vw;
-  opacity: 0.8;
+
+  animation: show 3s normal;
 }
 
 h4{
@@ -292,14 +293,20 @@ animation: 1s slideinr ease-out;
     -ms-transform: scale(0.5);
     transform: scale(0.5);
   }
-  50% {
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-  }
+
   100% {
-    -webkit-transform: scale(15);
-    -ms-transform: scale(15);
-    transform: scale(15);
+    -webkit-transform: scale(5);
+    -ms-transform: scale(5);
+    transform: scale(5);
+  }
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
