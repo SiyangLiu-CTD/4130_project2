@@ -18,7 +18,7 @@ body {
 
 .bodybackground1 {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%,-50%);
     color: #000000;
@@ -29,7 +29,7 @@ body {
 
 .bodybackground2 {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%,-50%);
     color: #000000;
@@ -99,7 +99,7 @@ body {
 h1{
   font-family: 'Fira Sans', sans-serif;
   hanging-punctuation: force-end;
-  font-size: 6vw;
+  font-size: 5.5vw;
 }
 
 h2{
@@ -177,60 +177,60 @@ h4{
 }
 
 #t1 {
-animation: 1.2s slidein ease-out;
+animation: slidein 1.2s ease-out both;
 }
 
 #t2 {
-animation: 1.2s slidein ease-out;
+animation: slidein 1.2s ease-out 0.1s both;
 }
 
 #t3 {
-animation: 1.2s slidein ease-out;
+animation: slidein 1.2s ease-out 0.2s both;
 }
 
 #t4 {
-animation: 1.2s slidein ease-out;
+animation: slidein 1.2s ease-out 0.3s both;
 }
 
 #t5 {
-animation: 1.2s slidein ease-out;
+animation: slidein 1.2s ease-out 0.4s both;
 }
 
 #t6 {
-animation: 1.2s slidein ease-out;
+animation: slidein 1.2s ease-out 0.5s both;
 }
 
 #t7 {
-animation: 1s slideinr ease-out;
+animation: 1s slideinr ease-out both;
 }
 
 #t8 {
-animation: 1s slideinr ease-out;
+animation: 1s slideinr ease-out 0.1s both;
 }
 
 #t9 {
-animation: 1s slideinr ease-out;
+animation: 1s slideinr ease-out 0.2s both;
 }
 
 #t10 {
-animation: 1s slideinr ease-out;
+animation: 1s slideinr ease-out 0.3s both;
 }
 
 #t11 {
-animation: 1s slideinr ease-out;
+animation: 1s slideinr ease-out 0.4s both;
 }
 
 #t12 {
-animation: 1s slideinr ease-out;
+animation: 1s slideinr ease-out 0.5s both;
 }
 
 @keyframes slidein {
-  from {
-    margin-left: 20%;
+  0% {
+    margin-left: 100%;
     width: 300%;
   }
 
-  to {
+  100% {
     margin-left: 0%;
     width: 100%;
   }
