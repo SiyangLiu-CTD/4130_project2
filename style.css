@@ -4,22 +4,24 @@
 
 .bodybackground1 {
     position: absolute;
-    top: 57%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 
     color: #000000;
     opacity: 0.05;
+    z-index: 0;
 }
 
 .bodybackground2 {
     position: absolute;
-    top: 57%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 
     color: #000000;
     opacity: 0.1;
+    z-index: 0;
 }
 
 .container1{
@@ -45,7 +47,7 @@
   width: 70%;
 
 
-  line-height:1.5vw;
+  line-height:2vw;
   text-align: left;
 }
 
@@ -68,7 +70,7 @@
 .quo1{
   color: #0071BC;
   position: absolute;
-  top: 15%;
+  top: 0%;
   left: 40%;
   transform: translate(-50%,-50%);
 }
@@ -77,18 +79,19 @@
   color:#fff;
   position: absolute;
   top: 80%;
-  left: 75%;
+  left: 85%;
   transform: translate(-50%,-50%);
 }
 
 .spacer{
   display: block;
-  margin-bottom: 6em;
+  height:1em;
 }
 
 h1{
   font-family: 'Fira Sans', sans-serif;
-  font-size:5.5vw;
+  font-size: 5.5vw;
+
   hanging-punctuation: force-end;
 }
 
