@@ -33,7 +33,7 @@ body {
     left: 50%;
     transform: translate(-50%,-50%);
     color: #000000;
-    opacity: 0.1;
+    opacity: 0.2;
     z-index: -1;
     overflow: hidden;
 }
@@ -93,7 +93,7 @@ body {
 
 .spacer{
   display: block;
-  height:1em;
+  height: 1em;
 }
 
 h1{
@@ -113,7 +113,7 @@ h3{
   font-family: 'Pacifico', cursive;
   font-size: 2vw;
 
-  animation: show 3s normal;
+  animation: lineUp 3s normal;
 }
 
 h4{
@@ -131,7 +131,6 @@ h4{
 }
 
 
-
  input[type=checkbox] {
 	 -webkit-appearance: none;
 	 height: 100%;
@@ -143,6 +142,7 @@ h4{
 	 display: block;
 	 background-color: #fff;
 	 transition: background-color 1s;
+   z-index: -2;
 }
  input[type=checkbox]:checked {
 	 background-color: #333333;
@@ -157,27 +157,35 @@ h4{
  .section-1 {
 	 display: block;
 	 color: #333333;
-	 z-index: 10;
 	 position: fixed;
 	 height: 100%;
 	 width: 100%;
 	 top: 0;
 	 pointer-events: none;
+   z-index: 2;
 
 }
  .section-2 {
 	 display: none;
 	 color: #fff;
-	 z-index: 10;
 	 position: fixed;
 	 height: 100%;
 	 width: 100%;
 	 top: 0;
 	 pointer-events: none;
+   z-index: 1;
+}
+
+.blu_ln, .yel_ln, .whi_ln, .red_ln {
 }
 
 #t1 {
 animation: slidein 1.2s ease-out both;
+}
+
+#t1:hover {
+display: none;
+background-color: gray;
 }
 
 #t2 {
@@ -224,10 +232,11 @@ animation: 1s slideinr ease-out 0.4s both;
 animation: 1s slideinr ease-out 0.5s both;
 }
 
+
 @keyframes slidein {
   0% {
-    margin-left: 100%;
-    width: 300%;
+    margin-left: 80%;
+    width: 200%;
   }
 
   100% {
@@ -248,7 +257,7 @@ animation: 1s slideinr ease-out 0.5s both;
   }
 }
 
-@keyframes anim-lineUp {
+@keyframes lineUp {
   0% {
     opacity: 0;
     transform: translateY(80%);
