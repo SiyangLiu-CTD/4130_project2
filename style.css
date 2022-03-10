@@ -101,7 +101,6 @@ body {
 h1{
   font-family: 'Fira Sans', sans-serif;
   hanging-punctuation: force-end;
-  font-size: 5.5vw;
 }
 
 h2{
@@ -183,6 +182,7 @@ h4{
 
 #t1 {
 animation: slidein 1.2s ease-out both;
+font-size: 5.5vw;
 }
 
 #t1:hover {
@@ -192,46 +192,57 @@ background-color: gray;
 
 #t2 {
 animation: slidein 1.2s ease-out 0.1s both;
+font-size: 5.5vw;
 }
 
 #t3 {
 animation: slidein 1.2s ease-out 0.2s both;
+font-size: 5.5vw;
 }
 
 #t4 {
 animation: slidein 1.2s ease-out 0.3s both;
+font-size: 5.5vw;
 }
 
 #t5 {
 animation: slidein 1.2s ease-out 0.4s both;
+font-size: 5.5vw;
 }
 
 #t6 {
 animation: slidein 1.2s ease-out 0.5s both;
+font-size: 5.5vw;
 }
 
 #t7 {
 animation: 1s slideinr ease-out both;
+font-size: 5vw;
 }
 
 #t8 {
 animation: 1s slideinr ease-out 0.1s both;
+font-size: 5vw;
 }
 
 #t9 {
 animation: 1s slideinr ease-out 0.2s both;
+font-size: 5vw;
 }
 
 #t10 {
 animation: 1s slideinr ease-out 0.3s both;
+font-size: 5vw;
 }
 
 #t11 {
 animation: 1s slideinr ease-out 0.4s both;
+font-size: 5vw;
 }
 
 #t12 {
 animation: 1s slideinr ease-out 0.5s both;
+font-size: 5vw;
 }
 
 @keyframes slide1 {
