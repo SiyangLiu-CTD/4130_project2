@@ -81,14 +81,16 @@ body {
   top: 10%;
   left: 40%;
   transform: translate(-50%,-50%);
+  animation: slide1 2s;
 }
 
 .quo2{
   color:#fff;
   position: absolute;
-  top: 85%;
+  top: 84%;
   left: 90%;
   transform: translate(-50%,-50%);
+  animation: slide2 2s;
 }
 
 .spacer{
@@ -232,6 +234,29 @@ animation: 1s slideinr ease-out 0.4s both;
 animation: 1s slideinr ease-out 0.5s both;
 }
 
+@keyframes slide1 {
+  0% {
+    margin-left: -200%;
+    width: 300%;
+  }
+
+  100% {
+    margin-left: -64%;
+    width: 100%;
+  }
+}
+
+@keyframes slide2 {
+  0% {
+    margin-left: 200%;
+    width: 300%;
+  }
+
+  100% {
+    margin-left: 64%;
+    width: 100%;
+  }
+}
 
 @keyframes slidein {
   0% {
