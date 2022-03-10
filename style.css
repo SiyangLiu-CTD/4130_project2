@@ -81,7 +81,7 @@ body {
   top: 10%;
   left: 40%;
   transform: translate(-50%,-50%);
-  animation: slide1 2s;
+  animation: slide1 2s ease-out;
 }
 
 .quo2{
@@ -90,7 +90,7 @@ body {
   top: 84%;
   left: 90%;
   transform: translate(-50%,-50%);
-  animation: slide2 2s;
+  animation: slide2 2s ease-out;
 }
 
 .spacer{
