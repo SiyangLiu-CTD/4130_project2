@@ -46,7 +46,6 @@ body {
   width: 70%;
   line-height:1.5vw;
   text-align: right;
-  hanging-punctuation: force-end;
 }
 
 .container2{
@@ -100,7 +99,6 @@ body {
 
 h1{
   font-family: 'Fira Sans', sans-serif;
-  hanging-punctuation: force-end;
 }
 
 h2{
@@ -185,8 +183,7 @@ font-size: 5.5vw;
 }
 
 #t1:hover {
-display: none;
-background-color: gray;
+display:none;
 }
 
 #t2 {
