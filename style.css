@@ -335,9 +335,9 @@ font-size: 5vw;
 
 @keyframes infinity {
   0% {
-    -webkit-transform: scale(0.5);
-    -ms-transform: scale(0.5);
-    transform: scale(0.5);
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
   }
 
   100% {
