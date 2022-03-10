@@ -193,6 +193,7 @@ background-color: gray;
 #t2 {
 animation: slidein 1.2s ease-out 0.1s both;
 font-size: 5.5vw;
+transform: translateX(0.25em);
 }
 
 #t3 {
@@ -213,6 +214,7 @@ font-size: 5.5vw;
 #t6 {
 animation: slidein 1.2s ease-out 0.5s both;
 font-size: 5.5vw;
+transform: translateX(0.25em);
 }
 
 #t7 {
