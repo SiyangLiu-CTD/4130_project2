@@ -44,7 +44,7 @@ body {
   left: 52%;
   transform: translate(-50%,-50%);
   width: 70%;
-  line-height:1.5vw;
+  line-height: 1.5vw;
   text-align: right;
 }
 
@@ -159,9 +159,8 @@ h4{
 	 height: 100%;
 	 width: 100%;
 	 top: 0;
-	 pointer-events: none;
-   z-index: 2;
 
+	 pointer-events: none;
 }
  .section-2 {
 	 display: none;
@@ -170,11 +169,12 @@ h4{
 	 height: 100%;
 	 width: 100%;
 	 top: 0;
+
 	 pointer-events: none;
-   z-index: 1;
 }
 
 .blu_ln, .yel_ln, .whi_ln, .red_ln {
+	pointer-events: all;
 }
 
 #t1 {
@@ -182,8 +182,16 @@ animation: slidein 1.2s ease-out both;
 font-size: 5.5vw;
 }
 
-#t1:hover {
-display:none;
+#t1:hover{
+	display:none;
+}
+
+#t1:hover + #t1_en{
+	display:block;
+}
+
+#t1_en{
+	display:none;
 }
 
 #t2 {
