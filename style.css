@@ -93,13 +93,7 @@ body {
   animation: slide2 2s ease-out;
 }
 
-.spacer{
-  display: block;
-  height: 1em;
-}
-
 h1{
-
 }
 
 h2{
@@ -191,69 +185,81 @@ h4{
 #t1 {
   font-size: 5.5vw;
 	animation: slidein 1.2s ease-out both;
+	transition: noshow 2s;
 }
 
 #t1:hover:after {
 	content: attr(data-hover);
 	font-size: 5.2vw;
 	vertical-align: middle;
+	animation: show 1s ease;
 }
 
 #t2 {
   animation: slidein 1.2s ease-out 0.1s both;
   font-size: 5.5vw;
   transform: translateX(0.25em);
+	transition: noshow 2s;
 }
 
 #t2:hover:after{
 	content: attr(data-hover);
 	font-size: 5.2vw;
 	vertical-align: middle;
+	animation: show 1s ease;
 }
 
 #t3 {
   animation: slidein 1.2s ease-out 0.2s both;
   font-size: 5.5vw;
+	transition: noshow 2s;
 }
 
 #t3:hover:after{
 	content: attr(data-hover);
 	font-size: 5.2vw;
 	vertical-align: middle;
+	animation: show 1s ease;
 }
 
 #t4 {
   animation: slidein 1.2s ease-out 0.3s both;
   font-size: 5.5vw;
+	transition: noshow 2s;
 }
 
 #t4:hover:after{
 	content: attr(data-hover);
 	font-size: 5.2vw;
 	vertical-align: middle;
+	animation: show 1s ease;
 }
 
 #t5 {
   animation: slidein 1.2s ease-out 0.4s both;
   font-size: 5.5vw;
+	transition: noshow 2s;
 }
 
 #t5:hover:after{
 	content: attr(data-hover);
 	font-size: 5.2vw;
 	vertical-align: middle;
+	animation: show 1s ease;
 }
 
 #t6 {
   animation: slidein 1.2s ease-out 0.5s both;
   font-size: 5.5vw;
   transform: translateX(0.25em);
+	transition: noshow 2s;
 }
 
 #t6:hover:after{
 	content: attr(data-hover);
 	font-size: 5.2vw;
 	vertical-align: middle;
+	animation: show 1s ease;
 }
 
 #t02 {
@@ -269,67 +275,79 @@ h4{
 #t7 {
   animation: 1s slideinr ease-out both;
   font-size: 5vw;
+	transition: noshow 2s;
 }
 
 #t7:hover:after{
 	content: attr(data-hover);
 	font-size: 4.8vw;
 	vertical-align: middle;
+	animation: show 1s ease;
 }
 
 #t8 {
   animation: 1s slideinr ease-out 0.1s both;
   font-size: 5vw;
+	transition: noshow 2s;
 }
 
 #t8:hover:after{
 	content: attr(data-hover);
 	font-size: 4.8vw;
 	vertical-align: middle;
+	animation: show 1s ease;
 }
 
 #t9 {
   animation: 1s slideinr ease-out 0.2s both;
   font-size: 5vw;
+	transition: noshow 2s;
 }
 
 #t9:hover:after{
 	content: attr(data-hover);
 	font-size: 4.8vw;
 	vertical-align: middle;
+	animation: show 1s ease;
 }
 
 #t10 {
   animation: 1s slideinr ease-out 0.3s both;
   font-size: 5vw;
+	transition: noshow 2s;
 }
 
 #t10:hover:after{
 	content: attr(data-hover);
 	font-size: 4.8vw;
 	vertical-align: middle;
+	animation: show 1s ease;
 }
 
 #t11 {
   animation: 1s slideinr ease-out 0.4s both;
   font-size: 5vw;
+	transition: noshow 2s;
 }
 
 #t11:hover:after{
 	content: attr(data-hover);
 	font-size: 4.8vw;
 	vertical-align: middle;
+	animation: show 1s ease;
 }
 
 #t12 {
   animation: 1s slideinr ease-out 0.5s both;
   font-size: 5vw;
+	transition: noshow 2s;
 }
 
 #t12:hover:after{
 	content: attr(data-hover);
 	font-size: 4.8vw;
 	vertical-align: middle;
+	animation: show 1s ease;
 }
 
 #t04 {
@@ -389,9 +407,6 @@ h4{
   0% {
     opacity: 0;
     transform: translateY(200%);
-  }
-  20% {
-    opacity: 0;
   }
   50% {
     opacity: 1;
