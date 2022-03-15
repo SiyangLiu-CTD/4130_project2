@@ -41,7 +41,7 @@ body {
 
 .container1{
   position: absolute;
-  top: 55%;
+  top: 52%;
   left: 52%;
   transform: translate(-50%,-50%);
   width: 70%;
@@ -51,7 +51,7 @@ body {
 
 .container2{
   position: absolute;
-  top: 52%;
+  top: 50%;
   left: 48%;
   transform: translate(-50%,-50%);
   width: 70%;
@@ -104,10 +104,7 @@ h2{
 }
 
 h3{
-  font-family: 'Pacifico', cursive;
-  font-size: 2vw;
 
-  animation: lineUp 3s normal;
 }
 
 h4{
@@ -117,12 +114,49 @@ h4{
 }
 
 #sig1{
+	text-decoration: none;
   color: #222222;
+	pointer-events: all;
+	cursor: pointer;
+
+	font-family: 'Pacifico', cursive;
+	font-size: 2vw;
+
+	animation: lineUp 3s normal;
+	transition: all 1s ease;
+}
+
+#sig1:hover{
+	text-decoration: none;
+  color: #222222;
+	opacity: 0.7;
+	font-size: 2.6vw;
+	pointer-events: all;
+	cursor: pointer;
 }
 
 #sig2{
+	text-decoration: none;
   color: #fff;
+	pointer-events: all;
+	cursor: pointer;
+
+	font-family: 'Pacifico', cursive;
+	font-size: 2vw;
+
+	animation: lineUp 3s normal;
+	transition: all 1s ease;
 }
+
+#sig2:hover{
+	text-decoration: none;
+  color: #fff;
+	opacity: 0.5;
+	font-size: 2.6vw;
+	pointer-events: all;
+	cursor: pointer;
+}
+
 
 
  input[type=checkbox] {
@@ -192,7 +226,7 @@ h4{
 	content: attr(data-hover);
 	font-size: 5.2vw;
 	vertical-align: middle;
-	animation: show 1s ease;
+	animation: show 2s ease;
 }
 
 #t2 {
@@ -206,7 +240,7 @@ h4{
 	content: attr(data-hover);
 	font-size: 5.2vw;
 	vertical-align: middle;
-	animation: show 1s ease;
+	animation: show 2s ease;
 }
 
 #t3 {
@@ -219,7 +253,7 @@ h4{
 	content: attr(data-hover);
 	font-size: 5.2vw;
 	vertical-align: middle;
-	animation: show 1s ease;
+	animation: show 2s ease;
 }
 
 #t4 {
@@ -232,7 +266,7 @@ h4{
 	content: attr(data-hover);
 	font-size: 5.2vw;
 	vertical-align: middle;
-	animation: show 1s ease;
+	animation: show 2s ease;
 }
 
 #t5 {
@@ -245,7 +279,7 @@ h4{
 	content: attr(data-hover);
 	font-size: 5.2vw;
 	vertical-align: middle;
-	animation: show 1s ease;
+	animation: show 2s ease;
 }
 
 #t6 {
@@ -259,11 +293,11 @@ h4{
 	content: attr(data-hover);
 	font-size: 5.2vw;
 	vertical-align: middle;
-	animation: show 1s ease;
+	animation: show 2s ease;
 }
 
 #t02 {
-	font-size: 5.5vw;
+	font-size: 5vw;
 	color: transparent;
 }
 /* -------------------------------------------------------------- */
@@ -282,7 +316,7 @@ h4{
 	content: attr(data-hover);
 	font-size: 4.8vw;
 	vertical-align: middle;
-	animation: show 1s ease;
+	animation: show 2s ease;
 }
 
 #t8 {
@@ -295,7 +329,7 @@ h4{
 	content: attr(data-hover);
 	font-size: 4.8vw;
 	vertical-align: middle;
-	animation: show 1s ease;
+	animation: show 2s ease;
 }
 
 #t9 {
@@ -308,7 +342,7 @@ h4{
 	content: attr(data-hover);
 	font-size: 4.8vw;
 	vertical-align: middle;
-	animation: show 1s ease;
+	animation: show 2s ease;
 }
 
 #t10 {
@@ -321,7 +355,7 @@ h4{
 	content: attr(data-hover);
 	font-size: 4.8vw;
 	vertical-align: middle;
-	animation: show 1s ease;
+	animation: show 2s ease;
 }
 
 #t11 {
@@ -334,7 +368,7 @@ h4{
 	content: attr(data-hover);
 	font-size: 4.8vw;
 	vertical-align: middle;
-	animation: show 1s ease;
+	animation: show 2s ease;
 }
 
 #t12 {
@@ -347,7 +381,7 @@ h4{
 	content: attr(data-hover);
 	font-size: 4.8vw;
 	vertical-align: middle;
-	animation: show 1s ease;
+	animation: show 2s ease;
 }
 
 #t04 {
