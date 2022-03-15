@@ -94,6 +94,7 @@ body {
 }
 
 h1{
+
 }
 
 h2{
@@ -104,7 +105,7 @@ h2{
 }
 
 h3{
-
+	animation: lineUp 3s normal;
 }
 
 h4{
@@ -122,15 +123,12 @@ h4{
 	font-family: 'Pacifico', cursive;
 	font-size: 2vw;
 
-	animation: lineUp 3s normal;
 	transition: all 1s ease;
 }
 
 #sig1:hover{
-	text-decoration: none;
   color: #222222;
-	opacity: 0.7;
-	font-size: 2.6vw;
+	font-size: 2.4vw;
 	pointer-events: all;
 	cursor: pointer;
 }
@@ -144,15 +142,12 @@ h4{
 	font-family: 'Pacifico', cursive;
 	font-size: 2vw;
 
-	animation: lineUp 3s normal;
 	transition: all 1s ease;
 }
 
 #sig2:hover{
-	text-decoration: none;
   color: #fff;
-	opacity: 0.5;
-	font-size: 2.6vw;
+	font-size: 2.4vw;
 	pointer-events: all;
 	cursor: pointer;
 }
@@ -219,7 +214,7 @@ h4{
 #t1 {
   font-size: 5.5vw;
 	animation: slidein 1.2s ease-out both;
-	transition: noshow 2s;
+	transition: all 0s;
 }
 
 #t1:hover:after {
@@ -233,7 +228,7 @@ h4{
   animation: slidein 1.2s ease-out 0.1s both;
   font-size: 5.5vw;
   transform: translateX(0.25em);
-	transition: noshow 2s;
+	transition: all 0s;
 }
 
 #t2:hover:after{
@@ -246,7 +241,7 @@ h4{
 #t3 {
   animation: slidein 1.2s ease-out 0.2s both;
   font-size: 5.5vw;
-	transition: noshow 2s;
+	transition: all 0s;
 }
 
 #t3:hover:after{
@@ -259,7 +254,7 @@ h4{
 #t4 {
   animation: slidein 1.2s ease-out 0.3s both;
   font-size: 5.5vw;
-	transition: noshow 2s;
+	transition: all 0s;
 }
 
 #t4:hover:after{
@@ -272,7 +267,7 @@ h4{
 #t5 {
   animation: slidein 1.2s ease-out 0.4s both;
   font-size: 5.5vw;
-	transition: noshow 2s;
+	transition: all 0s;
 }
 
 #t5:hover:after{
@@ -286,7 +281,7 @@ h4{
   animation: slidein 1.2s ease-out 0.5s both;
   font-size: 5.5vw;
   transform: translateX(0.25em);
-	transition: noshow 2s;
+	transition: all 0s;
 }
 
 #t6:hover:after{
@@ -309,7 +304,7 @@ h4{
 #t7 {
   animation: 1s slideinr ease-out both;
   font-size: 5vw;
-	transition: noshow 2s;
+	transition: all 0s;
 }
 
 #t7:hover:after{
@@ -322,7 +317,7 @@ h4{
 #t8 {
   animation: 1s slideinr ease-out 0.1s both;
   font-size: 5vw;
-	transition: noshow 2s;
+	transition: all 0s;
 }
 
 #t8:hover:after{
@@ -335,7 +330,7 @@ h4{
 #t9 {
   animation: 1s slideinr ease-out 0.2s both;
   font-size: 5vw;
-	transition: noshow 2s;
+	transition: all 0s;
 }
 
 #t9:hover:after{
@@ -348,7 +343,7 @@ h4{
 #t10 {
   animation: 1s slideinr ease-out 0.3s both;
   font-size: 5vw;
-	transition: noshow 2s;
+	transition: all 0s;
 }
 
 #t10:hover:after{
@@ -361,7 +356,7 @@ h4{
 #t11 {
   animation: 1s slideinr ease-out 0.4s both;
   font-size: 5vw;
-	transition: noshow 2s;
+	transition: all 0s;
 }
 
 #t11:hover:after{
@@ -374,7 +369,7 @@ h4{
 #t12 {
   animation: 1s slideinr ease-out 0.5s both;
   font-size: 5vw;
-	transition: noshow 2s;
+	transition: all 0s;
 }
 
 #t12:hover:after{
@@ -441,6 +436,9 @@ h4{
   0% {
     opacity: 0;
     transform: translateY(200%);
+  }
+	20% {
+    opacity: 0;
   }
   50% {
     opacity: 1;
