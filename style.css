@@ -183,6 +183,7 @@ h4{
 	height: 100%;
 	width: 100%;
 	top: 0;
+	z-index: 10;
 
 	pointer-events: none;
 }
@@ -193,6 +194,7 @@ h4{
 	height: 100%;
 	width: 100%;
 	top: 0;
+	z-index: 10;
 
 	pointer-events: none;
 }
